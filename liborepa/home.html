@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Sigdnin</title>
+
+
+  </head>
+  <body class="text-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Library</a>
+                <button class="navbar-toggler" type="button">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Logga ut</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+    <div class="container">
+        <div class="row pb-4 pt-5">
+                <div class="card text-white bg-primary pr-2 col-sm-2 offset-sm-1">
+                        <div class="card-body">
+                          <h5 class="card-title">Books borrowed</h5>
+                          
+                          <p class="card-text"><h1>2</h1></p>
+                        </div>
+                </div>
+                <div class="card text-white bg-success col-sm-2 offset-sm-1">
+                        <div class="card-body">
+                          <h5 class="card-title">Books reserved</h5>
+                          
+                          <p class="card-text"><h1>2</h1></p>
+                        </div>
+                </div>
+                <div class="card text-white bg-warning col-sm-2 offset-sm-1">
+                        <div class="card-body">
+                          <h5 class="card-title">Debt due</h5>
+                          
+                          <p class="card-text"><h1>100 SEK</h1></p>
+                        </div>
+                </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Active Loans
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                    <th>Loan date</th>
+                                    <th>Return date</th>
+                                    <th>Item name</th>
+                                    <th>Author</th>
+                                </tr>
+                                </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>2019-02-27</td>
+                                        <td>2019-05-27</td>
+                                        <td>Systems Analysis and Design (9th ed.)</td>
+                                        <td>Kendall, K. & Kendall, J.</td>
+                                    </tr>
+                                    <tr>
+                                            <td>2019-01-27</td>
+                                            <td>2019-04-27</td>
+                                            <td>Interaktionsdesign och UX – om att skapa en god användarupplevelse.</td>
+                                            <td>Arvola, M.</td>
+                                        </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Reservation list
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                    <table class="table">
+                                            <thead>
+                                                <tr>
+                                            <th>Reservation date</th>
+                                            <th>Expected availability date</th>
+                                            <th>Item name</th>
+                                            <th>Author</th>
+                                        </tr>
+                                        </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>2019-02-27</td>
+                                                <td>2019-05-27</td>
+                                                <td>Interaktionsdesign. Bortom människa-dator-interaktion.</td>
+                                                <td>Preece, J., Rogers, Y.</td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Debt & Payments
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                    <table class="table">
+                                            <thead>
+                                                <tr>
+                                            <th>Pay</th>
+                                            <th>Date</th>
+                                            <th>Description</th>
+                                            <th>Transaction ID</th>
+                                            <th>Sum</th>
+                                        </tr>
+                                        </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><input type="checkbox" name="pay-uuid" id="(uid)"></td>
+                                                <td>2019-02-27</td>
+                                                <td>Overdue fee - Utveckling av IT-system- barcode:1001293231</td>
+                                                <td>7473342-2342</td>
+                                                <td>-100 SEK</td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+                                        <a href="" class="btn btn-lg btn-primary btn-block">Pay debt</a>
+                            </div>
+                          </div>
+                        </div>
+         
+                    </div>          
+                 </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
