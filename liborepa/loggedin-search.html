@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Signin</title>
+
+
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Library</a>
+                <button class="navbar-toggler" type="button">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Settings</a>
+                    </li>
+                
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Sign out</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <a href="loggedin-search.html" class="btn btn-outline-success my-2 my-sm-0">Search for books</a>
+                  </form>
+                </div>
+              </nav>
+
+    <div class="container">
+        
+        <div class="row">
+                <div class="col-sm-8">
+                    
+                                <h1 class="h3 mb-3 font-weight-normal">Search for a book:</h1>
+                                <label for="inputSearch" class="sr-only">Search</label>
+                                <input type="text" id="inputSearch" class="form-control" placeholder="Search">
+                                <a href="loggedin-search.html" class="btn btn-lg btn-primary btn-block">Search</a>
+                    <hr>
+                    
+                    <h3>Results for: "Databases"</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>Copies available</th>
+                                    <th>Shelf</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Database Systems</td>
+                                    <td>Thomas Connolly, Carolyn Begg</td>
+                                    <td>8</td>
+                                    <td>01-AB3</td>
+                                </tr>
+                                <tr>
+                                        <td>Factfullness</td>
+                                        <td>Hans Rosling</td>
+                                        <td>4</td>
+                                        <td>21-AF3</td>
+                                </tr>
+                                <tr>
+                                        <td>Discrete and combinatorial mathematics</td>
+                                        <td>Ralph P. Grimaldi</td>
+                                        <td>0 <button class="btn btn-success">Reserve</button></td>
+                                        <td>21-AF3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+
+
+            
+        </div>
+    </div>
+</body>
+</html>
