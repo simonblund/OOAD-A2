@@ -49,6 +49,7 @@
                           <h5 class="card-title">Books reserved</h5>
                           
                           <p class="card-text"><h1>2</h1></p>
+                          <span class="badge badge-pill badge-success">1 ready for pick-up</span>
                         </div>
                 </div>
                 <div class="card text-white bg-danger ">
@@ -99,7 +100,7 @@
                                             <td>2019-04-27</td>
                                             <td>Interaktionsdesign och UX – om att skapa en god användarupplevelse.</td>
                                             <td>Arvola, M.</td>
-                                            <td><button class="btn btn-success">Renew</button></td>
+                                            <td><button class="btn btn-success" disabled>Renew</button><span class="badge badge-light">Reserved by other user</span></td>
                                         </tr>
                                 </tbody>
                                 </table>
@@ -112,13 +113,16 @@
                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Reservation list
                               </button>
+                              
                             </h2>
+                            
                           </div>
                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
                                     <table class="table">
                                             <thead>
                                                 <tr>
+                                            <th>Ready for pick-up</th>
                                             <th>Reservation date</th>
                                             <th>Expected availability date</th>
                                             <th>Item name</th>
@@ -128,12 +132,21 @@
                                         </thead>
                                             <tbody>
                                             <tr>
+                                                <td>No</td>
                                                 <td>2019-02-27</td>
                                                 <td>2019-05-27</td>
                                                 <td>Interaktionsdesign. Bortom människa-dator-interaktion.</td>
                                                 <td>Preece, J., Rogers, Y.</td>
                                                 <td><button class="btn btn-success">Remove</button></td>
                                             </tr>
+                                            <tr>
+                                                    <td>Yes</td>
+                                                    <td>2019-02-27</td>
+                                                    <td>2019-03-01</td>
+                                                    <td>Liikeen ja liikekontrollin häiriöt.</td>
+                                                    <td>Luomajoki, Hannu</td>
+                                                    <td><button class="btn btn-success">Remove</button></td>
+                                                </tr>
                                         </tbody>
                                         </table>
                             </div>
